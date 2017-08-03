@@ -29,7 +29,7 @@ return console.log('Connection coudnt get connected properly');
 
 //Finding one and delete
 
-db.collection('contacts').findOneAndDelete({'name':'ragul'}).then((result) =>
+db.collection('contacts').findOneAndDelete({'name':'ragul '}).then((result) =>
 {
   console.log(result);
 });
