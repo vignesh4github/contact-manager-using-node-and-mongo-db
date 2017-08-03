@@ -14,7 +14,7 @@ return console.log('Connection coudnt get connected properly');
 
 // creating collections
 
-/* db.collection('contacts').insertOne(
+db.collection('contacts').insertOne(
   {
     id  : 123,
     name : 'vickee',
@@ -27,7 +27,7 @@ return console.log('Connection coudnt get connected properly');
     console.log('unable to Insert into the collection',err);
   }
   console.log(result.ops[0].name);
-});*/
+});
 
 //shutdown the db
   db.close();

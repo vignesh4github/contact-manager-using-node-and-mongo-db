@@ -12,6 +12,8 @@ return console.log('Connection coudnt get connected properly');
 
  console.log("Connected with the server successfully..!!!");
 
+// Finding a collection
+
 db.collection('contacts').find().count().then((count) =>
 {
 
